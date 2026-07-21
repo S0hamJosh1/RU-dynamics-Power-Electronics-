@@ -51,6 +51,26 @@ flowchart LR
     BMS --> MON["Cell, pack, current, and fault monitoring"]
 ```
 
+## Board Renders
+
+### Main Power-Distribution Board
+
+<p align="center">
+  <img src="3D_renders/Mainboard_topview.png" alt="Mainboard top render" width="47%" />
+  <img src="3D_renders/Mainboard_botview.png" alt="Mainboard bottom render" width="47%" />
+</p>
+
+Top and bottom 3D renders of the main power-distribution board, showing the high-current bus structure, actuator output distribution, auxiliary power circuitry, and board-to-board interface area for the removable BMS module.
+
+### Battery-Management Board
+
+<p align="center">
+  <img src="3D_renders/BMS_topview.png" alt="BMS top render" width="47%" />
+  <img src="3D_renders/BMS_botview.png" alt="BMS bottom render" width="47%" />
+</p>
+
+Top and bottom 3D renders of the BMS daughterboard, including the monitoring IC, STM32 controller, SWD header, power domains, and connector interface back into the main distro.
+
 ## Core Hardware Features
 
 ### Main Power-Distribution Board
@@ -142,6 +162,12 @@ Mainboard_files/
 BMS_files/
   bms-schematic.epro2
   bms-pcb.epro2
+
+3D_renders/
+  Mainboard_topview.png
+  Mainboard_botview.png
+  BMS_topview.png
+  BMS_botview.png
 ```
 
 The complete `full_project_file/RU-Dynamics-Power-Distro-v0.6.7.epro2` archive should be treated as the main EasyEDA Pro project source. The individual board files are included separately for easier inspection and navigation.
