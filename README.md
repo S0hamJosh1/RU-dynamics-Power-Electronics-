@@ -212,7 +212,7 @@ Never connect parallel packs with significantly different voltages, and do not t
 
 ## Team
 
-Developed for the RU Dynamics quadruped platform by the RU Dynamics electrical team.
+Developed for the RU Dynamics quadruped platform in collaboration with Soham Joshi and Nikhil Reddy.
 
 ## License
 
