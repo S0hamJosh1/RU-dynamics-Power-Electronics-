@@ -55,19 +55,39 @@ flowchart LR
 
 ### Main Power-Distribution Board
 
-<p align="center">
-  <img src="3D_renders/Mainboard_topview.png" alt="Mainboard top render" width="47%" />
-  <img src="3D_renders/Mainboard_botview.png" alt="Mainboard bottom render" width="47%" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="3D_renders/Mainboard_topview_clean.png" alt="Mainboard top render" height="360" />
+    </td>
+    <td align="center" width="50%">
+      <img src="3D_renders/Mainboard_botview_clean.png" alt="Mainboard bottom render" height="360" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Top view</sub></td>
+    <td align="center"><sub>Bottom view</sub></td>
+  </tr>
+</table>
 
 Top and bottom 3D renders of the main power-distribution board, showing the high-current bus structure, actuator output distribution, auxiliary power circuitry, and board-to-board interface area for the removable BMS module.
 
 ### Battery-Management Board
 
-<p align="center">
-  <img src="3D_renders/BMS_topview.png" alt="BMS top render" width="47%" />
-  <img src="3D_renders/BMS_botview.png" alt="BMS bottom render" width="47%" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="3D_renders/BMS_topview_clean.png" alt="BMS top render" height="360" />
+    </td>
+    <td align="center" width="50%">
+      <img src="3D_renders/BMS_botview_clean.png" alt="BMS bottom render" height="360" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Top view</sub></td>
+    <td align="center"><sub>Bottom view</sub></td>
+  </tr>
+</table>
 
 Top and bottom 3D renders of the BMS daughterboard, including the monitoring IC, STM32 controller, SWD header, power domains, and connector interface back into the main distro.
 
@@ -164,10 +184,10 @@ BMS_files/
   bms-pcb.epro2
 
 3D_renders/
-  Mainboard_topview.png
-  Mainboard_botview.png
-  BMS_topview.png
-  BMS_botview.png
+  Mainboard_topview_clean.png
+  Mainboard_botview_clean.png
+  BMS_topview_clean.png
+  BMS_botview_clean.png
 ```
 
 The complete `full_project_file/RU-Dynamics-Power-Distro-v0.6.7.epro2` archive should be treated as the main EasyEDA Pro project source. The individual board files are included separately for easier inspection and navigation.
